@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: rgb(114,39,185);
+    background: radial-gradient(circle, rgba(114,39,185,1) 32%, rgba(136,79,203,1) 62%, rgba(141,88,207,1) 74%, rgba(174,148,233,1) 88%);
+
+    font-family: 'Red Hat Display';
+    color: white;
+    text-shadow: 1px 1px rgb(150, 150, 150);
+
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
